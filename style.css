@@ -1,0 +1,55 @@
+.inputbox{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#section1Div{
+    padding: 3%; margin: 10%; box-shadow:3px 3px 10px grey;
+    border-radius: 15px;
+}
+#transactionArea{
+    display: none;
+}
+.statusDiv{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px grey;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+}
+.statusDiv h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+.statusDiv p{
+    margin-left: 10px;
+    font-size: 50px;
+    color: white;
+}
+#deposit{
+    background-color: blueviolet;
+}
+#withdraw{
+    background-color: rgb(255, 217, 0);
+}
+#balance{
+    background-color: rgb(255, 115, 0);
+}
+#cardTransaction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cardTransactionOperation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardTransOperation{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px grey;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+}
